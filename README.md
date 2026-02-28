@@ -1,10 +1,12 @@
 # code-stats-skill
 
+[中文](#中文) | [English](#english)
+
+---
+
+## 中文
+
 OpenClaw Agent Skill - 代码统计分析工具
-
-## code-stats
-
-代码统计分析工具，可视化展示项目复杂度。
 
 ### 功能
 
@@ -34,6 +36,41 @@ node code-stats/index.js --csv
 ### 支持的语言
 
 JavaScript, TypeScript, Python, Go, Rust, Java, C/C++, C#, Ruby, PHP, Swift, Kotlin, Shell 等 30+ 种语言。
+
+---
+
+## English
+
+OpenClaw Agent Skill - Code Statistics & Analysis Tool
+
+### Features
+
+- 📁 **File Statistics**: Total files, lines of code, comment lines, blank lines
+- 🔤 **Language Distribution**: Code volume by programming language
+- 📄 **Large File Detection**: Find files with the most code
+- 📂 **Directory Analysis**: Code distribution by directory
+- ✅ **TODO Tracking**: Scan for TODO/FIXME/XXX in code
+- ⚙️ **Complexity Metrics**: Average file size, comment ratio, largest file
+
+### Usage
+
+```bash
+# Analyze current directory
+node code-stats/index.js
+
+# Analyze specific directory
+node code-stats/index.js /path/to/project
+
+# JSON output
+node code-stats/index.js --json
+
+# CSV output
+node code-stats/index.js --csv
+```
+
+### Supported Languages
+
+JavaScript, TypeScript, Python, Go, Rust, Java, C/C++, C#, Ruby, PHP, Swift, Kotlin, Shell, and 30+ more.
 
 ---
 
