@@ -1,6 +1,6 @@
-# openclaw-wk-skill
+# code-stats-skill
 
-OpenClaw Agent Skills - 代码统计分析工具
+OpenClaw Agent Skill - 代码统计分析工具
 
 ## code-stats
 
